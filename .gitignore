@@ -1,7 +1,7 @@
 # ignore everything
-*
+*/*
 
 # but not this file
 !.gitignore
 !Microsoft.PowerShell_profile.ps1
-!powerline-custom-git.omp.json
+!oh-my-posh-themes/powerline-custom-git.omp.json
