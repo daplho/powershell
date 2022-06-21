@@ -55,3 +55,10 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 # https://github.com/badmotorfinger/z
 Import-Module z
+
+# Aliases
+Function GitAdd {git add -p}
+Set-Alias -Name ga -Value GitAdd
+
+Function GitStatus {git status}
+Set-Alias -Name gs -Value GitStatus
