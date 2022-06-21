@@ -1,5 +1,5 @@
 # https://github.com/JanDeDobbeleer/oh-my-posh
-oh-my-posh init pwsh --config "~\Documents\PowerShell\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:OneDrive\Documents\powershell\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
 
 # https://github.com/dahlbyk/posh-git
 import-module posh-git
