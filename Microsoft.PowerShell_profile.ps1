@@ -1,5 +1,6 @@
 # https://github.com/JanDeDobbeleer/oh-my-posh
-oh-my-posh init pwsh --config "$env:OneDrive\Documents\powershell\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
+$ProfilePath = Split-Path $PROFILE -Parent
+oh-my-posh init pwsh --config "$ProfilePath\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
 
 # https://github.com/dahlbyk/posh-git
 import-module posh-git
