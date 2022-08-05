@@ -57,6 +57,8 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Import-Module z
 
 # Aliases
+Set-Alias -Name cd -Value pushd -Option AllScope
+
 Function GitAdd {git add -p}
 Set-Alias -Name ga -Value GitAdd
 
