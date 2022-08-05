@@ -1,6 +1,3 @@
-# Path
-$env:PATH += ";C:\Windows\Microsoft.NET\Framework64\v4.0.30319"
-
 # https://github.com/JanDeDobbeleer/oh-my-posh
 $ProfilePath = Split-Path $PROFILE -Parent
 oh-my-posh init pwsh --config "$ProfilePath\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
@@ -65,3 +62,6 @@ Set-Alias -Name ga -Value GitAdd
 
 Function GitStatus {git status}
 Set-Alias -Name gs -Value GitStatus
+
+# Path
+$env:PATH += "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin"
