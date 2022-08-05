@@ -64,4 +64,6 @@ Function GitStatus {git status}
 Set-Alias -Name gs -Value GitStatus
 
 # Path
-$env:PATH += "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin"
+$env:PATH += ";C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin"
+$env:PATH += ";C:\Users\nikokirov\.dotnet\Microsoft.Net.Compilers.4.2.0\tools"
+$env:PATH += ";C:\Users\nikokirov\.dotnet\nuget"
