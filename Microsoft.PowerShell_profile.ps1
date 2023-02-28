@@ -3,7 +3,7 @@ $ProfilePath = Split-Path $PROFILE -Parent
 oh-my-posh init pwsh --config "$ProfilePath\oh-my-posh-themes\powerline-custom-git.omp.json" | Invoke-Expression
 
 # https://github.com/dahlbyk/posh-git
-import-module posh-git
+Import-Module posh-git
 
 # https://github.com/PowerShell/PSReadLine
 Import-Module PSReadLine

@@ -9,7 +9,7 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 6. Clone this repo ('powershell') from github into the same directory as $PROFILE
-7. Install [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+7. Install [JanDeDobbeleer.OhMyPosh](https://github.com/JanDeDobbeleer/oh-my-posh) using 'winget'
 8. Install CascadiaCode Nerd Font
 ```
 oh-my-posh font install
